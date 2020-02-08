@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="news">
+        Avast is harvesting users browser histories on the pretext that the data has been de-identified, thus protecting your privacy. But the data, which is being sold to third parties, can be linked back to peoples real identities, exposing every click and search theyve made.
+
+        Your antivirus should protect you, but what if its handing over your browser history to a major marketing company?
+
+        Relax. Thats what Avast told the public after its browser extensions were found harvesting users data to supply to marketers. Last month, the antivirus company tried to justify the practice by claiming the collected web histories were stripped of users personal details before being handed off.
+
+        The data is fully de-identified and aggregated and cannot be used to personally identify or target you," Avast told users, who opt in to the data sharing. In return, your privacy is preserved, Avast gets paid, and online marketers get a trove of "aggregate" consumer data to help them sell more products.
+    </string>
+
+    <string name="news1">
+        \nHow De-Identification Can Fail
+
+The Avast division charged with selling the data is Jumpshot, a company subsidiary thats been offering access to user traffic from 100 million devices, including PCs and phones. In return, clients—from big brands to e-commerce providers—can learn what consumers are buying and where, whether it be from a Google or Amazon search, an ad from a news article, or a post on Instagram. The data collected is so granular that clients can view the individual clicks users are making on their browsing sessions, including the time down to the millisecond. And while the collected data is never linked to a persons name, email or IP address, each user history is nevertheless assigned to an identifier called the device ID, which will persist unless the user uninstalls the Avast antivirus product.
+
+For instance, a single click can theoretically look like this: \n\n
+        Device ID: abc123x Date: 2019/12/01 Hour Minute Second: 12:03:05 Domain: Amazon.com Product: Apple iPad Pro 10.5 - 2017 Model - 256GB, Rose Gold Behavior: Add to Cart
+        \n\nAt first glance, the click looks harmless. You cant pin it to an exact user. That is, unless youre Amazon.com, which could easily figure out which Amazon user bought an iPad Pro at 12:03:05 on Dec. 1, 2019. Suddenly, device ID: 123abcx is a known user. And whatever else Jumpshot has on 123abcxs activity—from other e-commerce purchases to Google searches—is no longer anonymous.
+    </string>
+    <string name="Task1">Task1</string>
+</resources>
